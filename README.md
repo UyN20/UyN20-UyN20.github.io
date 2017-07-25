@@ -1,1 +1,1 @@
-# UyN20-UyN20.github.io
+# uyN20.github.io
