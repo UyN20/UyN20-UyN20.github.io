@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact me</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="contact-me.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <script src="./scripts/jquery.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="container navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="About-me.html" title="Home">Nicholas Uy</a>
+      </div>
+      <div class="collapse navbar-collapse" id="site-nav">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="About-me.html" class="dropdown-toggle" data-toggle="dropdown">Home
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="About-me.html">About Me</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Project-1.html">Best latin translation</a></li>
+              <li><a href="Project-2.html">Difficult grammar topics</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">Blog
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a href="blog.html">My Blog</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="resume.html">Resume</a>
+          </li>
+          <li>
+            <a href="Contact-me.html">Contact</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+      </div>
+    </nav>
+    <h1>Hello, world! You can contact me here!</h1>
+    <p class= "font-size">Email me:<a href="mailto:nicouy2602@gmail.com">nicouy2602@gmail.com</a>
+    </p>
+    <img src="./image/contact.jpeg" class="float-right"></img>
+    <img src="./image/contact-2.jpeg" class="float-left"></img>
+    <div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Quick Contact</h3>
+    <h4>Contact us today, and get reply with in 24 hours!</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+     <footer>
+        <hr><a href="privacy.html">Privacy Policy</a> | &copy;
+        2017 Nicholas Uy | <a href="Contact-me.html">Contact Me</a>
+    </footer>
+  </body>
+</html>

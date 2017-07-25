@@ -1,0 +1,35 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  text-align: center;
+}
+.dctv-pic {
+  width:400px;
+  height:300px;
+}
+.marvel-pic{
+  width:450px;
+  height:250px;
+}
+.dctv-background {
+  background-color: green;
+}
+.dctv-text-color {
+  color:green;
+}
+.marvel-text-color{
+  color:red;
+}
+.marvel-background{
+  background-color:red;
+}
+.general-background{
+  background-color:gray;
+}
+p {
+  font-size: 20px
+}
+footer {
+    font-size: 20px;
+}
